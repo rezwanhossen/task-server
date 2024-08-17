@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "brand": "Nike",
+    "category_name": "shirt",
+    "price": 45,
+    "product_name": "Nike Classic Shirt",
+    "product_img": "https://i.ibb.co/Ks4Yb6d/download-18.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "Puma",
+    "category_name": "t-shirt",
+    "price": 25,
+    "product_name": "Puma Graphic Tee",
+    "product_img": "https://i.ibb.co/8jQnFwn/download-17.jpg"
+  },
+  {
+    "id": 3,
+    "brand": "Adidas",
+    "category_name": "pant",
+    "price": 70,
+    "product_name": "Adidas Sports Pants",
+    "product_img": "https://i.ibb.co/0XvVPX8/download-16.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Levi's",
+    "category_name": "shirt",
+    "price": 50,
+    "product_name": "Levi's Denim Shirt",
+    "product_img": "https://i.ibb.co/gmQrHmC/download-15.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "Brax",
+    "category_name": "t-shirt",
+    "price": 35,
+    "product_name": "Brax Casual T-Shirt",
+    "product_img": "https://i.ibb.co/5Y25jSP/download-14.jpg"
+  },
+  {
+    "id": 6,
+    "brand": "Nike",
+    "category_name": "pant",
+    "price": 75,
+    "product_name": "Nike Joggers",
+    "product_img": "https://i.ibb.co/7pwY892/images-5.jpg"
+  },
+  {
+    "id": 7,
+    "brand": "Puma",
+    "category_name": "shirt",
+    "price": 40,
+    "product_name": "Puma Button-Up Shirt",
+    "product_img": "https://i.ibb.co/61FrZbQ/download-10.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Adidas",
+    "category_name": "t-shirt",
+    "price": 30,
+    "product_name": "Adidas Logo Tee",
+    "product_img": "https://i.ibb.co/m6ktC09/download-9.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "Levi's",
+    "category_name": "pant",
+    "price": 60,
+    "product_name": "Levi's Slim Fit Jeans",
+    "product_img": "https://i.ibb.co/0Q6G76J/images-4.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Brax",
+    "category_name": "shirt",
+    "price": 55,
+    "product_name": "Brax Linen Shirt",
+    "product_img": "https://i.ibb.co/CBwBWJK/images-3.jpg"
+  },
+  {
+    "id": 11,
+    "brand": "Nike",
+    "category_name": "t-shirt",
+    "price": 40,
+    "product_name": "Nike Dri-FIT Tee",
+    "product_img": "https://i.ibb.co/Z64zmYS/images-2.jpg"
+  },
+  {
+    "id": 12,
+    "brand": "Puma",
+    "category_name": "pant",
+    "price": 70,
+    "product_name": "Puma Track Pants",
+    "product_img": "https://i.ibb.co/qkxRt53/download-8.jpg"
+  },
+  {
+    "id": 13,
+    "brand": "Adidas",
+    "category_name": "shirt",
+    "price": 60,
+    "product_name": "Adidas Polo Shirt",
+    "product_img": "https://i.ibb.co/frm4Y9Q/download-7.jpg"
+  },
+  {
+    "id": 14,
+    "brand": "Levi's",
+    "category_name": "t-shirt",
+    "price": 35,
+    "product_name": "Levi's Graphic Tee",
+    "product_img": "https://i.ibb.co/yd06Q85/download-6.jpg"
+  },
+  {
+    "id": 15,
+    "brand": "Brax",
+    "category_name": "pant",
+    "price": 80,
+    "product_name": "Brax Formal Pants",
+    "product_img": "https://i.ibb.co/RbsN9NB/images-1.jpg"
+  },
+  {
+    "id": 16,
+    "brand": "Nike",
+    "category_name": "shirt",
+    "price": 45,
+    "product_name": "Nike Training Shirt",
+    "product_img": "https://i.ibb.co/MnH9f1M/images.jpg"
+  },
+  {
+    "id": 17,
+    "brand": "Puma",
+    "category_name": "t-shirt",
+    "price": 30,
+    "product_name": "Puma Running Tee",
+    "product_img": "https://i.ibb.co/WKBqs8P/download-5.jpg"
+  },
+  {
+    "id": 18,
+    "brand": "Adidas",
+    "category_name": "pant",
+    "price": 75,
+    "product_name": "Adidas Cargo Pants",
+    "product_img": "https://i.ibb.co/L56gHFd/download-4.jpg"
+  },
+  {
+    "id": 19,
+    "brand": "Levi's",
+    "category_name": "shirt",
+    "price": 65,
+    "product_name": "Levi's Western Shirt",
+    "product_img": "https://i.ibb.co/pPHL8nQ/download-3.jpg"
+  },
+  {
+    "id": 20,
+    "brand": "Brax",
+    "category_name": "t-shirt",
+    "price": 40,
+    "product_name": "Brax Basic Tee",
+    "product_img": "https://i.ibb.co/8MDmDJQ/download-2.jpg"
+  },
+  {
+    "id": 21,
+    "brand": "Nike",
+    "category_name": "pant",
+    "price": 85,
+    "product_name": "Nike Flex Pants",
+    "product_img": "https://i.ibb.co/7gYmCxt/download-1.jpg"
+  },
+  {
+    "id": 22,
+    "brand": "Puma",
+    "category_name": "shirt",
+    "price": 55,
+    "product_name": "Puma Casual Shirt",
+    "product_img": "https://i.ibb.co/9pdHv2X/download.jpg"
+  },
+  {
+    "id": 23,
+    "brand": "Adidas",
+    "category_name": "t-shirt",
+    "price": 35,
+    "product_name": "Adidas Sports Tee",
+    "product_img": "https://i.ibb.co/7pwY892/images-5.jpg"
+  },
+  {
+    "id": 24,
+    "brand": "Levi's",
+    "category_name": "pant",
+    "price": 70,
+    "product_name": "Levi's Relaxed Jeans",
+    "product_img": "https://i.ibb.co/m6ktC09/download-9.jpg"
+  },
+  {
+    "id": 25,
+    "brand": "Brax",
+    "category_name": "shirt",
+    "price": 50,
+    "product_name": "Brax Striped Shirt",
+    "product_img": "https://i.ibb.co/Ks4Yb6d/download-18.jpg"
+  },
+  {
+    "id": 26,
+    "brand": "Nike",
+    "category_name": "t-shirt",
+    "price": 25,
+    "product_name": "Nike Casual Tee",
+    "product_img": "https://i.ibb.co/8jQnFwn/download-17.jpg"
+  },
+  {
+    "id": 27,
+    "brand": "Puma",
+    "category_name": "pant",
+    "price": 75,
+    "product_name": "Puma Jogger Pants",
+    "product_img": "https://i.ibb.co/0XvVPX8/download-16.jpg"
+  },
+  {
+    "id": 28,
+    "brand": "Adidas",
+    "category_name": "shirt",
+    "price": 55,
+    "product_name": "Adidas Formal Shirt",
+    "product_img": "https://i.ibb.co/gmQrHmC/download-15.jpg"
+  },
+  {
+    "id": 29,
+    "brand": "Levi's",
+    "category_name": "t-shirt",
+    "price": 30,
+    "product_name": "Levi's Casual Tee",
+    "product_img": "https://i.ibb.co/5Y25jSP/download-14.jpg"
+  },
+  {
+    "id": 30,
+    "brand": "Brax",
+    "category_name": "shirt",
+    "price": 70,
+    "product_name": "Brax Striped Shirt",
+    "product_img": "https://i.ibb.co/Ks4Yb6d/download-18.jpg"
+  },
+  {
+    "id": 31,
+    "brand": "Nike",
+    "category_name": "shirt",
+    "price": 45,
+    "product_name": "Nike Classic Shirt",
+    "product_img": "https://i.ibb.co/Ks4Yb6d/download-18.jpg"
+  },
+  {
+    "id": 32,
+    "brand": "Puma",
+    "category_name": "t-shirt",
+    "price": 25,
+    "product_name": "Puma Graphic Tee",
+    "product_img": "https://i.ibb.co/8jQnFwn/download-17.jpg"
+  },
+  {
+    "id": 33,
+    "brand": "Adidas",
+    "category_name": "pant",
+    "price": 70,
+    "product_name": "Adidas Sports Pants",
+    "product_img": "https://i.ibb.co/0XvVPX8/download-16.jpg"
+  },
+  {
+    "id": 34,
+    "brand": "Levi's",
+    "category_name": "shirt",
+    "price": 50,
+    "product_name": "Levi's Denim Shirt",
+    "product_img": "https://i.ibb.co/gmQrHmC/download-15.jpg"
+  },
+  {
+    "id": 35,
+    "brand": "Brax",
+    "category_name": "t-shirt",
+    "price": 35,
+    "product_name": "Brax Casual T-Shirt",
+    "product_img": "https://i.ibb.co/5Y25jSP/download-14.jpg"
+  },
+  {
+    "id": 36,
+    "brand": "Nike",
+    "category_name": "pant",
+    "price": 75,
+    "product_name": "Nike Joggers",
+    "product_img": "https://i.ibb.co/7pwY892/images-5.jpg"
+  },
+  {
+    "id": 37,
+    "brand": "Puma",
+    "category_name": "shirt",
+    "price": 40,
+    "product_name": "Puma Button-Up Shirt",
+    "product_img": "https://i.ibb.co/61FrZbQ/download-10.jpg"
+  },
+  {
+    "id": 38,
+    "brand": "Adidas",
+    "category_name": "t-shirt",
+    "price": 30,
+    "product_name": "Adidas Logo Tee",
+    "product_img": "https://i.ibb.co/m6ktC09/download-9.jpg"
+  },
+  {
+    "id": 39,
+    "brand": "Levi's",
+    "category_name": "pant",
+    "price": 60,
+    "product_name": "Levi's Slim Fit Jeans",
+    "product_img": "https://i.ibb.co/0Q6G76J/images-4.jpg"
+  },
+  {
+    "id": 40,
+    "brand": "Brax",
+    "category_name": "shirt",
+    "price": 55,
+    "product_name": "Brax Linen Shirt",
+    "product_img": "https://i.ibb.co/CBwBWJK/images-3.jpg"
+  }
+]
