@@ -8,7 +8,7 @@ const app = express();
 //meddil wair =======
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5000"],
+    origin: ["https://task-sol-clint.web.app", "http://localhost:5000"],
   })
 );
 app.use(express.json());
