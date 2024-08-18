@@ -2,13 +2,13 @@ const express = require("express");
 const cors = require("cors");
 const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 require("dotenv").config();
-const port = process.env.PORT || 5001;
+const port = process.env.PORT || 5000;
 
 const app = express();
 //meddil wair =======
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5001"],
+    origin: ["http://localhost:5173", "http://localhost:5000"],
   })
 );
 app.use(express.json());
@@ -33,8 +33,40 @@ async function run() {
 
     // await client.connect();
     app.get("/product", async (req, res) => {
-      const result = await productCol.find().toArray();
+      const size = parseInt(req.query.size);
+      const page = parseInt(req.query.page) - 1;
+      const filterone = req.query.filterone;
+      const filtertwo = req.query.filtertwo;
+      const sort = req.query.sort;
+      const search = req.query.search;
+      let query = {
+        product_name: { $regex: search, $options: "i" },
+      };
+      if (filterone) query.category_name = filterone; //= { category_name: filterone };
+      if (filtertwo) query.brand = filtertwo;
+      let option = {};
+      if (sort) option = { sort: { price: sort === "Low to High" ? 1 : -1 } };
+      const result = await productCol
+        .find(query, option)
+        .skip(page * size)
+        .limit(size)
+        .toArray();
       res.send(result);
+    });
+    // await client.connect();
+    app.get("/product-count", async (req, res) => {
+      const filterone = req.query.filterone;
+      const filtertwo = req.query.filtertwo;
+      const search = req.query.search;
+      //   let query = {};
+      //   if (filterone) query = { category_name: filterone };
+      let query = {
+        product_name: { $regex: search, $options: "i" },
+      };
+      if (filterone) query.category_name = filterone;
+      if (filtertwo) query.brand = filtertwo;
+      const count = await productCol.countDocuments(query);
+      res.send({ count });
     });
 
     // await client.db("admin").command({ ping: 1 });
